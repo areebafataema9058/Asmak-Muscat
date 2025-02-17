@@ -1,0 +1,102 @@
+/* Container styling */
+.ourquality-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Main heading styling */
+h1 {
+  font-size: 3rem;
+  color: #2c3e50; /* Dark blue-gray */
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Subheading (description) styling */
+h3 {
+  font-size: 1.2rem;
+  color: #4f4f4f; /* Neutral gray */
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+/* Grid container styling */
+.ourquality-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Individual card styling */
+.ourquality-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ourquality-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.ourquality-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Name styling */
+.ourquality-name {
+  font-size: 1.5rem;
+  color: #007bff; /* Blue color */
+  margin: 15px 0 10px;
+  font-weight: 600;
+}
+
+/* Description styling */
+.ourquality-desc {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 15px 15px;
+  line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .ourquality-grid {
+    gap: 15px;
+  }
+
+  .ourquality-name {
+    font-size: 1.25rem;
+  }
+
+  .ourquality-desc {
+    font-size: 0.9rem;
+  }
+}
+
+

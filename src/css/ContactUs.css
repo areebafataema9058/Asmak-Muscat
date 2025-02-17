@@ -1,0 +1,56 @@
+/* Styles for the main container */
+.contact-us {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the contact-info section */
+.contact-info {
+    text-align: left;
+}
+
+/* Heading styles */
+.contact-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* General paragraph styles */
+.contact-info p {
+    color: #555;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+/* Styles for bold text in paragraphs */
+.contact-info p strong {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Styles for the Oman flag image */
+.contact-info .oman-flag {
+    display: block;
+    margin-top: 15px;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .contact-us {
+        padding: 15px;
+    }
+
+    .contact-info .oman-flag {
+        max-width: 100px;
+    }
+}
+
