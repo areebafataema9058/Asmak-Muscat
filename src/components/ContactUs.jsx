@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/ContactUs.css'
-import omanFlag from '../assets/images/Flag.png'
+import omanFlag from '../assets/images/flag.png'
 
 const ContactUs = () => {
   return (
