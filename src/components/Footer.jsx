@@ -10,7 +10,7 @@ import {
   FaGooglePlusG,
   FaLinkedinIn,
 } from "react-icons/fa";
-import logo from "../assets/images/Logo.png";
+import logo from "../assets/images/logo.png";
 import img1 from "../assets/images/slider1.jpeg";
 import { NavLink } from "react-router-dom";
 
